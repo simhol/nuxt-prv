@@ -1,5 +1,5 @@
 <template lang="pug"> 
-    n-link.post-preview(:to="`/posts/${id}`")
+    nuxt-link.post-preview(:to="`/posts/${id}`")
       article
         .post-thumbnail(:style="{backgroundImage: `url(${thumbnail})`}")
         .post-content

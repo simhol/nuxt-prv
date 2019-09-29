@@ -2,17 +2,16 @@
   .home-page 
     section.intro
       h1 Get the latests tech news
-    section.featured-posts
-      PostPreview(id="1" title="First Post" thumbnail="https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg" previewText="This is my first post")
-      PostPreview(id="2" title="Second Post" thumbnail="https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg" previewText="This is my second post")
-      PostPreview(id="3" title="Third Post" thumbnail="https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg" previewText="This is my third post")
+    PostList
 </template>
 
 <script>
 import PostPreview from '@/components/Posts/PostPreview'
+import PostList from '@/components/Posts/PostList'
 export default {
   components: {
-    PostPreview
+    PostPreview,
+    PostList
   }
 }
 </script>

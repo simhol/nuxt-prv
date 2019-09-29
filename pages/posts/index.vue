@@ -1,9 +1,14 @@
-<template>
-  <div class="post-page"></div>
+<template lang="pug">
+  PostList
 </template>
 
 <script>
-export default {}
+import PostList from '@/components/Posts/PostList'
+export default {
+  components: {
+    PostList
+  }
+}
 </script>
 
 <style scoped>
